@@ -48,17 +48,20 @@ public class File4 {
         String sentence3 = "Make America Great Again";
         sentence3=sentence3.toUpperCase(Locale.ROOT);
         String[] sentence3Array = sentence3.split(" ");
-        System.out.println(sentence3Array[0].charAt(0) + "" + sentence3Array[1].charAt(0)  + "" + sentence3Array[2].charAt(0) + "" + sentence3Array[3].charAt(0));
+        System.out.println(sentence3Array[0].charAt(0) + "" + sentence3Array[1].charAt(0)  +
+                "" + sentence3Array[2].charAt(0) + "" + sentence3Array[3].charAt(0));
 
         String sentence4 = "Outfit Of The Day";
         sentence4=sentence4.toUpperCase(Locale.ROOT);
         String[] sentence4Array = sentence4.split(" ");
-        System.out.println(sentence4Array[0].charAt(0) + "" + sentence4Array[1].charAt(0)  + "" + sentence4Array[2].charAt(0) + "" + sentence4Array[3].charAt(0));
+        System.out.println(sentence4Array[0].charAt(0) + "" + sentence4Array[1].charAt(0)  +
+                "" + sentence4Array[2].charAt(0) + "" + sentence4Array[3].charAt(0));
 
         String sentence5 = "Happy Birthday To You";
         sentence5=sentence5.toUpperCase(Locale.ROOT);
         String[] sentence5Array = sentence5.split(" ");
-        System.out.println(sentence5Array[0].charAt(0) + "" + sentence5Array[1].charAt(0)  + "" + sentence5Array[2].charAt(0) + "" + sentence5Array[3].charAt(0));
+        System.out.println(sentence5Array[0].charAt(0) + "" + sentence5Array[1].charAt(0)  +
+                "" + sentence5Array[2].charAt(0) + "" + sentence5Array[3].charAt(0));
 
 
 

@@ -2,6 +2,7 @@ package Homework3;
 
 import java.awt.datatransfer.StringSelection;
 import java.util.Arrays;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class File4 {
@@ -39,13 +40,25 @@ public class File4 {
 
         // Q3
         // Create the abbreviation for 4-word sentence;
-        // make america great again - M A G A
-        // outfit of the day = O 0 T D
-        // happy birthday to you = H B T Y
-
-       // I need to discuss this with you in :Lab Session
+        // Make America Great Again - M A G A
+        // Outfit Of The Day = O O T D
+        // Happy Birthday To You = H B T Y
 
 
+        String sentence3 = "Make America Great Again";
+        sentence3=sentence3.toUpperCase(Locale.ROOT);
+        String[] sentence3Array = sentence3.split(" ");
+        System.out.println(sentence3Array[0].charAt(0) + "" + sentence3Array[1].charAt(0)  + "" + sentence3Array[2].charAt(0) + "" + sentence3Array[3].charAt(0));
+
+        String sentence4 = "Outfit Of The Day";
+        sentence4=sentence4.toUpperCase(Locale.ROOT);
+        String[] sentence4Array = sentence4.split(" ");
+        System.out.println(sentence4Array[0].charAt(0) + "" + sentence4Array[1].charAt(0)  + "" + sentence4Array[2].charAt(0) + "" + sentence4Array[3].charAt(0));
+
+        String sentence5 = "Happy Birthday To You";
+        sentence5=sentence5.toUpperCase(Locale.ROOT);
+        String[] sentence5Array = sentence5.split(" ");
+        System.out.println(sentence5Array[0].charAt(0) + "" + sentence5Array[1].charAt(0)  + "" + sentence5Array[2].charAt(0) + "" + sentence5Array[3].charAt(0));
 
 
 

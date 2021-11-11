@@ -46,24 +46,28 @@ public class File4 {
 
 
         String sentence3 = "Make America Great Again";
-        sentence3=sentence3.toUpperCase(Locale.ROOT);
-        String[] sentence3Array = sentence3.split(" ");
-        System.out.println(sentence3Array[0].charAt(0) + "" + sentence3Array[1].charAt(0)  +
-                "" + sentence3Array[2].charAt(0) + "" + sentence3Array[3].charAt(0));
+        String [] sen3Split = sentence3.toUpperCase().split(" ");
+        String abbreviation = "";
+        for (int i=0; i< sen3Split.length; i++) {
+            abbreviation += sen3Split[i].charAt(0);
+        }
+        System.out.println(abbreviation);
 
         String sentence4 = "Outfit Of The Day";
-        sentence4=sentence4.toUpperCase(Locale.ROOT);
-        String[] sentence4Array = sentence4.split(" ");
-        System.out.println(sentence4Array[0].charAt(0) + "" + sentence4Array[1].charAt(0)  +
-                "" + sentence4Array[2].charAt(0) + "" + sentence4Array[3].charAt(0));
+        String [] sen4Split = sentence4.toUpperCase().split(" ");
+        abbreviation = "";
+        for (int i=0; i< sen4Split.length; i++) {
+            abbreviation += sen4Split[i].charAt(0);
+        }
+        System.out.println(abbreviation);
 
         String sentence5 = "Happy Birthday To You";
-        sentence5=sentence5.toUpperCase(Locale.ROOT);
-        String[] sentence5Array = sentence5.split(" ");
-        System.out.println(sentence5Array[0].charAt(0) + "" + sentence5Array[1].charAt(0)  +
-                "" + sentence5Array[2].charAt(0) + "" + sentence5Array[3].charAt(0));
-
-
+        String [] sen5Split = sentence5.toUpperCase().split(" ");
+        abbreviation = "";
+        for (int i=0; i< sen5Split.length; i++) {
+            abbreviation += sen5Split[i].charAt(0);
+        }
+        System.out.println(abbreviation);
 
 
 

@@ -1,5 +1,7 @@
 package Homework2;
 
+import java.util.Locale;
+
 public class File3 {
     public static void main(String[] args) {
 
@@ -27,10 +29,14 @@ public class File3 {
         // Replace all instances of a/A with Z;
 
         String sentence2 = "Health was Earlier said to Be the ability of the body functioning WElL.";
-        String sentence2Replace_a_Z = sentence2.replace ("a", "Z");
+        String result = sentence2.toLowerCase(Locale.ROOT);
+        System.out.println("\nOriginal sentence2 : " + sentence2);
+        System.out.println("Lowercase string = " + result);
 
-        System.out.println("\nSentence2 -->" + sentence2);
-        System.out.println("After replace -->" + sentence2Replace_a_Z);
+
+        String resultReplace_a_Z = result.replace ("a", "Z");
+        System.out.println("\nSentence2 -->" + result);
+        System.out.println("After replace -->" + resultReplace_a_Z);
 
 
         // 3. String sentence 3 = "Health was Earlier said to Be the ability of the body functioning WElL."
@@ -53,17 +59,17 @@ public class File3 {
         sentence3 = "Health was Earlier said to Be the ability of the body functioning WElL.";
         System.out.println("\nSentence3 : " + sentence3);
 
-        sentence3 = "Health was Earlier said to Be the ability of the body functioning WElL.";
-        boolean isStartsWith_health=sentence3.startsWith ("health");
-        System.out.println("is'" + sentence3 + "'starts with 'health'?: " + isStartsWith_health);
+        String result2 = sentence3.toLowerCase(Locale.ROOT);
+        System.out.println("\nOriginal sentence3 : " + sentence3);
+        System.out.println("Lowercase string = " + result2);
+
+        boolean isStartsWith_health=result2.startsWith ("health");
+        System.out.println("is'" + result2 + "'starts with 'health'?: " + isStartsWith_health);
 
         // 3. Results if sentence 3 contains "body" (ignoring cases);
 
         sentence3 = "Health was Earlier said to Be the ability of the body functioning WElL.";
-        System.out.println("\nSentence3 : " + sentence3);
-
-        sentence3 = "Health was Earlier said to Be the ability of the body functioning WElL.";
-        boolean isContains_body = sentence3.contains("body");
+        boolean isContains_body = result2.contains("body");
         System.out.println("is '" + "'contains 'body'? : "+ isContains_body);
 
         // 4. Index of "Body" in sentence 3;

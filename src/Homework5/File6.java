@@ -23,24 +23,25 @@ public class File6 {
         //    If the student score is not valid, print error statement "Invalid student score entered".
         //    Based on the student scoring percentage, print the grade.
 
-        double studentScore = 89.23;
-        int maxScore = 100;
-        if (studentScore == 100) {
-            System.out.println("\nMAXIMUM SCORE - GRADE A+ - Student has passed");
-        } else if (studentScore >= 81 || studentScore == 90.99) {
-            System.out.println("\nGRADE A - Student has passed");
-        } else if (studentScore >= 81 || studentScore == 90.99) {
-            System.out.println("\nGRADE B - Student has passed");
-        } else if (studentScore >= 71 || studentScore == 80.99) {
-            System.out.println("\nGRADE C - Student has passed");
-        } else if (studentScore >= 61 || studentScore == 70.99) {
-            System.out.println("\nGRADE D - Student has passed");
-        } else if (studentScore < 61) {
-            System.out.println("\nGRADE E - Student has failed");
+        double studentScore = 200.00;
+        int maxPointsScore = 250;
+        double studentGradeRatio = studentScore / maxPointsScore * 100;
+
+        System.out.println("Student Exam Score is " + studentGradeRatio + "%.");
+
+        if (studentGradeRatio >= 91 && studentGradeRatio <= 100) {
+            System.out.println("Student's grade is - GRADE A");
+        } else if (studentGradeRatio >= 81 && studentGradeRatio <= 90.99) {
+            System.out.println("Student's grade is - GRADE B");
+        } else if (studentGradeRatio >= 71 && studentGradeRatio <= 80.99) {
+            System.out.println("Student's grade is - GRADE C");
+        } else if (studentGradeRatio >= 61 && studentGradeRatio <= 70.99) {
+            System.out.println("Student's grade is - GRADE D");
+        } else if (studentGradeRatio < 61) {
+            System.out.println("Student's grade is - GRADE F");
+        } else {
+            System.out.println("Invalid student score entered");
+
         }
-        }
-
-
-
     }
-
+}

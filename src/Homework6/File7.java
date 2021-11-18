@@ -50,13 +50,14 @@ public class File7 {
         //  Q2. Change the given sentence in titlecase:
         // Happy nEW YEAR to YoU dEAr --> Happy new year to you dear
 
-        String sentence8 = "Happy nEW YEAR to YoU dEAr";
-        String result = sentence8.toLowerCase(Locale.ROOT);
-        System.out.println("\nOriginal sentence : " + sentence8);
-        System.out.println("Lowercase string = " + result);
 
-        String resultReplace_h_H = result.replace ("h", "H");
-        System.out.println("After replace --> " + resultReplace_h_H);
+        String oldSentence = "HappY nEW YEAR to YoU dEAr";
+        String[] arrOldSentence = oldSentence.toLowerCase().split(" ");
+        String newSentence = "";
+        for (int i = 0; i <= arrOldSentence.length - 1; i++) {
+        newSentence += arrOldSentence[i].substring(0,1).toUpperCase() + arrOldSentence[i].substring(1) + " ";
+        }
+        System.out.println(newSentence);
 
 
         //  Q3. Reverse a string
@@ -89,7 +90,6 @@ public class File7 {
             output2 =output2+ " " +strArray2[i-1];
         }
             System.out.println("Reverse Sentence : " + output2);
-
 
 
         // Q4. Find the maximum value from given int-array

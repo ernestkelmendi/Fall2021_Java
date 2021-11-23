@@ -48,7 +48,7 @@ public class File7 {
 
 
         //  Q2. Change the given sentence in titlecase:
-        // Happy nEW YEAR to YoU dEAr --> Happy new year to you dear
+        // Happy nEW YEAR to YoU dEAr --> Happy New Year To You Dear
 
 
         String oldSentence = "HappY nEW YEAR to YoU dEAr";

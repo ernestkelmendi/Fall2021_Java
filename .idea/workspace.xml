@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b61a8896-2aea-48a7-a12d-7d0fd7a088b8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework6/File7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework6/File7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,16 +46,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="CodeTest" />
       <recent name="Homework2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.File8">
-    <configuration name="File3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework2.File3" />
+  <component name="RunManager" selected="Application.Test4">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeTest.Test" />
       <module name="fall2021_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework2.*" />
+          <option name="PATTERN" value="CodeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="File6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework5.File6" />
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeTest.Test2" />
       <module name="fall2021_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework5.*" />
+          <option name="PATTERN" value="CodeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="File7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework6.File7" />
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeTest.Test3" />
       <module name="fall2021_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework6.*" />
+          <option name="PATTERN" value="CodeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="File8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework7.File8" />
+    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeTest.Test4" />
       <module name="fall2021_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework7.*" />
+          <option name="PATTERN" value="CodeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="File9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework7.File9" />
+    <configuration name="TestCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeTest.TestCode" />
       <module name="fall2021_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework7.*" />
+          <option name="PATTERN" value="CodeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.File8" />
-        <item itemvalue="Application.File9" />
-        <item itemvalue="Application.File7" />
-        <item itemvalue="Application.File3" />
-        <item itemvalue="Application.File6" />
+        <item itemvalue="Application.Test4" />
+        <item itemvalue="Application.Test3" />
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TestCode" />
       </list>
     </recent_temporary>
   </component>

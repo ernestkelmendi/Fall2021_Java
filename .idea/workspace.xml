@@ -50,7 +50,20 @@
       <recent name="Homework2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test4">
+  <component name="RunManager" selected="Application.Institute">
+    <configuration name="Institute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework8.Institute" />
+      <module name="fall2021_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CodeTest.Test" />
       <module name="fall2021_Java" />
@@ -103,26 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeTest.TestCode" />
-      <module name="fall2021_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CodeTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Institute" />
         <item itemvalue="Application.Test4" />
         <item itemvalue="Application.Test3" />
         <item itemvalue="Application.Test2" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TestCode" />
       </list>
     </recent_temporary>
   </component>

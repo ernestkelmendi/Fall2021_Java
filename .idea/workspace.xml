@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b61a8896-2aea-48a7-a12d-7d0fd7a088b8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class2/Basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class2/Basics.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +51,13 @@
       <recent name="Homework2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Institute">
-    <configuration name="Class2_Datatypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Classes.Class2_Datatypes" />
+  <component name="RunManager" selected="Application.Set_HashSet">
+    <configuration name="List_ArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class17.List_ArrayList" />
       <module name="fall2021_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Classes.*" />
+          <option name="PATTERN" value="Class17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Datatypes_NonPrimitive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class3.Datatypes_NonPrimitive" />
+    <configuration name="List_ArrayList_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class18.List_ArrayList_2" />
       <module name="fall2021_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class3.*" />
+          <option name="PATTERN" value="Class18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Datatypes_Primitive_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class3.Datatypes_Primitive_2" />
+    <configuration name="PracticeQuestions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class17.PracticeQuestions" />
       <module name="fall2021_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class3.*" />
+          <option name="PATTERN" value="Class17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Institute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class16.Student_Institute.Institute" />
+    <configuration name="Set_HashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class18.Set_HashSet" />
       <module name="fall2021_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class16.Student_Institute.*" />
+          <option name="PATTERN" value="Class18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaOperators_Arithmetic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class3.JavaOperators_Arithmetic" />
+    <configuration name="Users" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class17.LabSessionPkg.Users" />
       <module name="fall2021_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class3.*" />
+          <option name="PATTERN" value="Class17.LabSessionPkg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Institute" />
-        <item itemvalue="Application.JavaOperators_Arithmetic" />
-        <item itemvalue="Application.Datatypes_Primitive_2" />
-        <item itemvalue="Application.Datatypes_NonPrimitive" />
-        <item itemvalue="Application.Class2_Datatypes" />
+        <item itemvalue="Application.Set_HashSet" />
+        <item itemvalue="Application.List_ArrayList_2" />
+        <item itemvalue="Application.PracticeQuestions" />
+        <item itemvalue="Application.List_ArrayList" />
+        <item itemvalue="Application.Users" />
       </list>
     </recent_temporary>
   </component>

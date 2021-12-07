@@ -3,22 +3,16 @@ package Class2;
 public class Basics {
     // No code outside the class-curly braces
     // After double-slash, everything on this line will be treated as comment.
-
     /*
         This is
-
         a way to
-
         add multi-line
-
         comment.
      */
 
     /**
      * This is another
-     *
      * way to put multi-line
-     *
      * comments
      */
 
